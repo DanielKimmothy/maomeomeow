@@ -1,18 +1,39 @@
 body{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #start{
     margin: auto;
     width: 40%;
     font-size: medium;
+    background-color: white;
 }
 
 #stuffBox{
-    width: 40%;
+    width: 50%;
     margin: auto;
-    
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#allElements{
+    background-color: white;
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+#searchBox{
+    width:100%;
+    font-size: medium;
+    margin-bottom: auto;
+    text-align: center;
 }
 
 
