@@ -37,7 +37,7 @@ btn.onclick = function() {
     console.log("Array length: "+keyWords.length)
     let html = "";
     for (let i = 0; i <= keyWords.length; i++){
-        console.log(keyWords[i])
+        console.log("Checking")
         if (searchInput == keyWords[i]){
             let correct = true
             console.log(keyWords[i])
